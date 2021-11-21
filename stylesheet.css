@@ -1,0 +1,139 @@
+:root {
+    --negro: #000000;
+    --amarillo: #FED460;
+    --amarilloclaro: #FEEA85;
+    --amarillooscuro: #E6AF2E;
+    --anaranjado: #F07B3F;
+    --rosado: #EA5455;
+    --rosaoscuro: #F73F52;
+    --azuloscuro: #2D4059;
+    --lila: #4E4E6A;
+    --celesteoscuro: #1F6CB0;
+    --celesteclaro: #70A3C4;
+
+    }
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+header {
+    background-color: var(--negro);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;  
+}
+
+.top {
+    background-color: var(--azuloscuro);
+    width: 1160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.izquierda,
+.centro,
+.derecha {
+    background-color: var(--rosado);
+    margin: 20px; 
+    font-size: 30px;
+}
+
+.izquierda,
+.derecha {
+    flex-basis: 250px;
+}
+
+.centro {
+    flex-basis: auto;
+}
+
+.bottom {
+    background-color: var(--anaranjado);
+    width: 1160px;
+    margin: 10px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.debajo {
+    margin: 20px;
+    background-color: var(--amarillo);
+    align-items: center;
+    font-size: 30px;
+}
+
+main {
+    margin: 20px auto;
+    width: 1200px;
+    background-color: var(--negro);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left {
+    background-color: var(--lila);
+    margin: 20px auto 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 690px;
+}
+
+.p1,
+.p2,
+.p3, 
+.p4 {
+    background-color: var(--celesteoscuro);
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 10px;  
+}
+
+.p5 {
+    background-color: var(--celesteclaro);
+    width: 640px;
+    font-size: 30px;
+}
+
+.right {
+    background-color: var(--rosaoscuro);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main.right.sup,
+.main.right.inf {
+    background-color: var(--amarillo);
+    margin: 20px;
+    width: 420px;
+    font-size: 30px;
+} 
+
+.main.right.sup {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--negro);
+    margin: 20px auto;
+}
+
+.footer {
+    width: 1160px;
+    margin: 20px;
+    background-color: var(--amarillooscuro);
+    text-align: center; 
+    font-size: 30px;
+}
