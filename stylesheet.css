@@ -37,6 +37,7 @@ header {
         background-color: var(--azuloscuro);
         display: flex;
         flex-flow: row nowrap;
+        margin-bottom: auto;
     }
 
         .logo,
@@ -104,3 +105,10 @@ footer {
         background-color: var(--amarillooscuro);
         flex: 100;
     }
+
+    @media screen and (max-width: 768px) {
+        main {
+            flex-direction: column;
+            background-color: #FEFF03;
+    }
+}
