@@ -106,9 +106,32 @@ footer {
         flex: 100;
     }
 
-    @media screen and (max-width: 768px) {
-        main {
-            flex-direction: column;
-            background-color: #FEFF03;
+@media screen and (max-width: 768px) {
+    main {
+         flex-direction: column;
+         background-color: #FEFF03;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+        margin-bottom: 10px;
+    } 
+
+    main {
+        background-color: #FEE228;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .aside {
+        background-color: #FD7B54;  
+    }
+
+    .footer {
+        background-color: #FDC764;
     }
 }
